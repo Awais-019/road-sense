@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <header class="bg-secondary text-white font-medium text-lg mb-8">
+  <header class="bg-secondary text-white font-medium text-lg">
     <div class="max-w-8xl mx-auto py-4">
       <nav>
         <ul class="flex gap-4">
