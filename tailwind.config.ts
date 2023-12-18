@@ -13,9 +13,9 @@ export default {
       colors: {
         primary: "#003366",
         secondary: "#021333",
-        accent: "#FF6600",
+        accent: "#ff916d",
         light_gray: "#D3D3D3",
-        light_blue: "#ADD8E6",
+        light_blue: "#6e9fc1",
       },
       maxWidth: {
         "8xl": "90rem",
