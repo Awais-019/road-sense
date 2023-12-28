@@ -1,4 +1,8 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+  definePageMeta({
+    middleware: ["auth"],
+  });
+</script>
 
 <template>
   <div class="flex items-center justify-center mt-8">

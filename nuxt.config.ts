@@ -2,6 +2,12 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
+  modules: ["@pinia/nuxt", "@pinia-plugin-persistedstate/nuxt"],
+  runtimeConfig: {
+    public: {
+      baseURL: process.env.BASE_URL,
+    },
+  },
   postcss: {
     plugins: {
       tailwindcss: {},

@@ -1,4 +1,13 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+  import useUserStore from "~/stores/user";
+
+  const userStore = useUserStore();
+
+  function handleSignOut() {
+    userStore.signOut();
+    navigateTo("/signin");
+  }
+</script>
 
 <template>
   <header class="bg-secondary text-white font-medium text-lg">
@@ -15,7 +24,7 @@
             <nuxt-link to="/live">Live Stream</nuxt-link>
           </li>
           <li class="ml-auto">
-            <button>Sign out</button>
+            <button @click="handleSignOut">Sign out</button>
           </li>
         </ul>
       </nav>
