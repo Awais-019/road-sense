@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       baseURL: process.env.BASE_URL,
+      mapBoxToken: process.env.MAPBOX_TOKEN,
     },
   },
   postcss: {

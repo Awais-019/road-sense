@@ -62,6 +62,7 @@
         :src="accident.video_url"
       ></video>
     </div>
+    <Map />
   </section>
 </template>
 
